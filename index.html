@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting room</title>
-    <link rel="stylesheet"  href="./index.css">
+    <link rel="stylesheet"  href="./pages/index.css">
     </head>
-    <body>
+    <body class="body">
     <div class="container">
-      <div class="form-container">
-        <h1 class="form-title">Забронируй место прямо сейчас</h1>
+      <div class="header">
+        <h1 class="header__title">Забронируй место прямо сейчас</h1>
+      </div>
         <form class="form">
-            <div class="form-group">
-              <label for="tower">Выберите башню:</label>
+            <div class="form__group">
+              <label for="tower" class="form__name">Выберите башню:</label>
               <select id="tower" name="tower">
                 <option value="a">Башня А</option>
                 <option value="b">Башня Б</option>
               </select>
             </div>
-            <div class="form-group">
+            <div class="form__group">
               <label for="floor">Выберите этаж:</label>
               <select id="floor" name="floor">
                 <option value="3">3</option>
@@ -49,8 +50,8 @@
                 <option value="27">27</option>
               </select>
             </div>
-            <div class="form-group">
-              <label for="room">Выберите переговорку:</label>
+            <div class="form__group">
+              <label for="room" class="form__name">Выберите переговорку:</label>
               <select id="room" name="room">
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -64,30 +65,29 @@
                 <option value="10">10</option>
               </select>
             </div>
-            <div class="form-group">
-              <label for="date">Выберите дату:</label>
+            <div class="form__group">
+              <label for="date" class="form__name" >Выберите дату:</label>
               <input type="date" id="date" name="date">
             </div>
-            <div class="form-group">
-              <label for="start-time">Время начала бронирования:</label>
+            <div class="form__group">
+              <label for="start-time" class="form__name">Время начала бронирования:</label>
               <input type="time" id="start-time" name="timeStart">
             </div>
-            <div class="form-group">
-              <label for="end-time">Время окончания бронирования:</label>
+            <div class="form__group">
+              <label for="end-time" class="form__name">Время окончания бронирования:</label>
               <input type="time" id="end-time" name="timeEnd">
             </div>
-            <div class="form-group">
-              <label for="comment">Комментарий:</label>
+            <div class="form__group">
+              <label for="comment" class="form__name">Комментарий:</label>
               <textarea id="comment" name="comment"></textarea>
             </div>
-            <div class="form-group">
-              <button type="submit">Отправить</button>
-              <button type="reset">Очистить</button>
+            <div class="form__group">
+              <button type="submit" class="form__button">Отправить</button>
+              <button type="reset" class="form__button">Очистить</button>
             </div>
             <div id="error-message" name="error"></div>
           </form>
-        </div>
       </div>
-      <script src="./index.js"></script>
+      <script src="./pages/index.js"></script>
     </body>
     </html>

@@ -6,6 +6,13 @@
     
     const inputs = event.target.elements;
 
+      // проверяем, заполнены ли все поля, кроме comment
+  if (inputs.date.value.trim() === '' || inputs.timeStart.value.trim() === '' || inputs.timeEnd.value.trim() === '') {
+    errorMessage.textContent = 'Пожалуйста, заполните все поля';
+    errorMessage.classList.add('error');
+    return;
+  }
+
     // проверяем день
     const selectedDate = new Date(inputs.date.value);
     const currentDate = new Date();
@@ -26,13 +33,6 @@
       errorMessage.textContent = '';
       errorMessage.classList.remove('error');
     }
-
-  // проверяем, заполнены ли все поля, кроме comment
-  if (inputs.date.value.trim() === '' || inputs.timeStart.value.trim() === '' || inputs.timeEnd.value.trim() === '') {
-    errorMessage.textContent = 'Пожалуйста, заполните все поля';
-    errorMessage.classList.add('error');
-    return;
-  }
 
     const data = new FormData(event.target);
     const jsonData = JSON.stringify(Object.fromEntries(data.entries()));

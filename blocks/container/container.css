@@ -1,0 +1,13 @@
+.container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    background-image: url(../../images/coworking-1.jpg);
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+    overflow-x: hidden;
+    font-family: 'Inter', 'Arial', sans-serif;
+  }

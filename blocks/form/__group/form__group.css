@@ -1,0 +1,17 @@
+.form__group {
+    margin-bottom: 10px;display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+     background-color: #eee;
+  }
+
+  form input,
+  form select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
