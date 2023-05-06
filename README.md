@@ -2,4 +2,4 @@
 
 ### Заполните форму для бронирования места в коворкинге, форма не сохранится, если вы не заполните все графы(кроме графы:комментарий, данное поле можно оставить пустым)
 
-#### https://anastasia-gorlina.github.io/meetingroom/
+####  https://anastasia-gorlina.github.io/meeting-room/
