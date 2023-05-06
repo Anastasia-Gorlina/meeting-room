@@ -13,7 +13,6 @@
 @import url(../blocks/form/__button/form__button.css);
 @import url(../blocks/form/__date/form__date.css);
 @import url(../blocks/form/__group/form__group.css);
-@import url(../blocks/form/__name/form__label.css);
-@import url(../blocks/form/__time/form__time.css);
+@import url(../blocks/form/__name/form__name.css);
 
 @import url(../blocks/error/error.css);
