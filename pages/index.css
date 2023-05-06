@@ -1,17 +1,17 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-@import url(../blocks/body/body.css);
+@import url(../tree/master/blocks/body/body.css);
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__title/header__title.css);
+@import url(../tree/master/blocks/header/header.css);
+@import url(../tree/master/blocks/header/__title/header__title.css);
 
-@import url(../blocks/container/container.css);
+@import url(../tree/master/blocks/container/container.css);
 
-@import url(../blocks/form/form.css);
-@import url(../blocks/form/__button/form__button.css);
-@import url(../blocks/form/__date/form__date.css);
-@import url(../blocks/form/__group/form__group.css);
-@import url(../blocks/form/__name/form__name.css);
+@import url(../tree/master/blocks/form/form.css);
+@import url(../tree/master/blocks/form/__button/form__button.css);
+@import url(../tree/master/blocks/form/__date/form__date.css);
+@import url(../tree/master/blocks/form/__group/form__group.css);
+@import url(../tree/master/blocks/form/__name/form__name.css);
 
-@import url(../blocks/error/error.css);
+@import url(../tree/master/blocks/error/error.css);
