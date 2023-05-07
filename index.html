@@ -15,14 +15,14 @@
         <form class="form">
             <div class="form__group">
               <label for="tower" class="form__name">Выберите башню:</label>
-              <select id="tower" name="tower">
+              <select id="tower" name="tower"  class="form__count">
                 <option value="a">Башня А</option>
                 <option value="b">Башня Б</option>
               </select>
             </div>
             <div class="form__group">
-              <label for="floor">Выберите этаж:</label>
-              <select id="floor" name="floor">
+              <label for="floor" class="form__name">Выберите этаж:</label>
+              <select id="floor" name="floor" class="form__count">
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5</option>
@@ -52,7 +52,7 @@
             </div>
             <div class="form__group">
               <label for="room" class="form__name">Выберите переговорку:</label>
-              <select id="room" name="room">
+              <select id="room" name="room" class="form__count">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -67,19 +67,19 @@
             </div>
             <div class="form__group">
               <label for="date" class="form__name" >Выберите дату:</label>
-              <input type="date" id="date" name="date">
+              <input type="date" id="date" name="date" class="form__count" min="07.05.2023">
             </div>
             <div class="form__group">
               <label for="start-time" class="form__name">Время начала бронирования:</label>
-              <input type="time" id="start-time" name="timeStart">
+              <input type="time" id="start-time" name="timeStart" class="form__count">
             </div>
             <div class="form__group">
               <label for="end-time" class="form__name">Время окончания бронирования:</label>
-              <input type="time" id="end-time" name="timeEnd">
+              <input type="time" id="end-time" name="timeEnd" class="form__count">
             </div>
             <div class="form__group">
               <label for="comment" class="form__name">Комментарий:</label>
-              <textarea id="comment" name="comment"></textarea>
+              <textarea id="comment" name="comment" class="form__count"></textarea>
             </div>
             <div class="form__group">
               <button type="submit" class="form__button">Отправить</button>

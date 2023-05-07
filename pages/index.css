@@ -10,6 +10,7 @@
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__count/form__count.css);
 @import url(../blocks/form/__date/form__date.css);
 @import url(../blocks/form/__group/form__group.css);
 @import url(../blocks/form/__name/form__name.css);
